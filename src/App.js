@@ -34,7 +34,7 @@ function App() {
     //resetear a false
     guardarCreargasto(false)
   }
-  }, [gasto])
+  }, [gasto, creargasto, gastos, restante])
 
 
   //cuando agreguemos un nuevo gasto
